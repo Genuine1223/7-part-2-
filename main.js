@@ -17,9 +17,8 @@ function increase_count() {
     document.querySelector("#count").textContent = String(count);
 }
 
-function change_image() {
-    document.querySelector("#image").src = "images/other_cat.avif";
-}
+
+
 
 function toggle_text() {
     let text = document.querySelector("#text");
